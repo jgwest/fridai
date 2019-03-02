@@ -1,0 +1,171 @@
+
+
+Hazard cards:
+
+# ---------------------------
+
+fighting-value: 0
+hazard-values: 3 1 0
+free-cards: 1
+hazard-title: With the raft to the wreck
+
+mimicry, 1x copy
+realization, 1x destroy
+books, phase -1
+deception, 1x below the pile
+2) equipment, +2 cards
+2) strategy, 2x exchange
+2) food, +1 life
+
+# ---------------------------
+
+fighting-value: 1
+hazard-values: 6 3 1
+free-cards: 2
+hazard-title: Exploring the island
+
+repeat, 1x double
+deception, 1x below the pile
+mimicry, 1x copy
+2) food, +1 life
+realization, 1x destroy
+
+# ---------------------------
+
+fighting-value: 2
+
+hazard-title: Further exploring the island
+hazard-values: 8 5 2
+free-cards: 3
+
+realization, 1x destroy
+experience, +1 cards
+vision, sort 3 cards
+repeat, 1x double
+strategy, 1x exchange
+food, +1 life
+
+
+hazard-title: Exploring the island
+hazard-values: 6 3 1
+free-cards: 2
+
+2) weapon, ...
+
+
+# ---------------------------
+
+fighting-value: 3
+
+hazard-title: Wild animals
+hazard-values: 11 7 4
+free-cards: 4
+
+realization, 1x destroy
+strategy, 1x exchange
+vision, sort 3 cards
+experience, +1 cards
+
+# ---------------------------
+
+fighting-value: 4
+hazard-title: Cannibals
+hazard-values: 14  9 5
+free-cards: 5
+
+2) weapon, ...
+
+
+# -----------------------------------------------------------
+
+Fighting Cards:
+
+# ---------------------------
+fighting-value: -1
+
+5) distracted, ...
+
+# ---------------------------
+fighting-value: 0
+
+eating, +2 life
+8) weak, ...
+
+# ---------------------------
+
+fighting-value: 1
+3) focused, ...
+
+# ---------------------------
+
+fighting-value: 2
+genius, ...
+
+
+# -----------------------------------------------------------
+
+Aging Cards:
+
+
+# ---------------------------
+fighting-value: 0
+difficulty: normal
+
+2) scared, highest card = 0
+hungry, -1 life
+very tired, stop
+
+difficulty: difficult
+
+very hungry, -2 life
+
+# ---------------------------
+fighting-value: -1
+difficulty: normal
+
+distracted, ...
+
+# ---------------------------
+fighting-value: -2
+difficulty: normal
+
+2) stupid, ...
+
+
+# ---------------------------
+fighting-value: -3
+difficulty: normal
+
+very stupid, ...
+
+
+# ---------------------------
+fighting-value: -4
+difficulty: difficult
+
+moronic, ...
+
+# ---------------------------
+fighting-value: -5
+difficulty: difficult
+
+suicidal, ...
+
+
+
+# -----------------------------------------------------------
+
+Pirate Cards:
+
+# free cards, hazard value, ability
+5, *, +2 hazard points for each aging card
+6, 20, ...
+7, 25, ...
+7, 16, Each additional fighting card costs 2 life points
+8, 30, ...
+9, 35, ...
+9, 22, Only half of the face up fighting cards count (face up aging cards must be part of this)
+10, 52, Each face up fighting card counts +1 fighting point
+10, 40, ...
+*, *, Fight against all remaining hazard cards
+

@@ -1,0 +1,4 @@
+/bin/
+/dependency-reduced-pom.xml
+/target/
+*.bat
